@@ -1,9 +1,9 @@
 $(document).ready(function() {
-
+$('body').addClass('loaded');//animation
 
 	  $(".oplata,.dostavka").click(function() {
 				$.fancybox.open({
-					href : 'frame.html',
+					// href : 'frame.html',
 					type : 'iframe',
 					padding : 0
 				});

@@ -37,12 +37,12 @@ $break-large: 1180px;
 }
 
 // TRANSITION
-@mixin transition($what: all, $length: 1s, $easing: ease-in-out) {
-	-moz-transition:    $what $length $easing;
-	-o-transition:      $what $length $easing;
-	-webkit-transition: $what $length $easing;
-	-ms-transition:     $what $length $easing;
-	transition:         $what $length $easing;
+@mixin transition($what: all, $length: 1s, $easing: ease-in-out, $delay: 0) {
+	-moz-transition:    $what $length $delay $easing;
+	-o-transition:      $what $length $delay $easing;
+	-webkit-transition: $what $length $delay $easing;
+	-ms-transition:     $what $length $delay $easing;
+	transition:         $what $length $delay $easing;
 }
 
 // image replacement extend
