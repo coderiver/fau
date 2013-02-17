@@ -1,0 +1,149 @@
+@import "base";
+// SHORT HOWTO
+// =======Sprites
+// .whatever{
+// 	@include sized-sprite($icons, badge_hit);
+// 	@include retina{
+// 		@include sized-sprite($icons, badge_new);
+// 	}
+// }
+// =======animation example
+// @include keyframes(rotate) {
+//    from {
+//       @include rotate(0);
+//    }
+//    to {
+//       @include rotate(360);
+//    }
+// }
+// =========ANIMATIONS usage
+// body:hover{
+// 	@include animation(rotate 200s linear infinite);
+// }
+// ========gradient example
+// body{
+// @include background-image(linear-gradient(#232323, #5c5c5c));
+// }
+// =========making bw-images
+// img{@extend %gray;}
+
+
+
+*{margin:0;padding:0;-webkit-text-size-adjust: none; }
+body{
+	font: {
+		family: Helvetica,Arial,sans-serif;
+		weight: normal;
+		size: 12px;
+	}
+	line-height:1.4;
+	background: #000;
+}
+// resets
+a img,fieldset{
+	border:none;
+	}
+a{
+	color:#00919e;
+	&:hover{
+		text-decoration:none;
+	}
+}
+// FOOTER
+.footer{
+	background: #000;
+	padding: 22px 0 29px;
+	.footer__inner{
+		width: 1000px;
+		margin: auto;
+		height: 60px;
+		position: relative;
+	}
+	.footer__left{
+		position: absolute;
+		left: 0;
+		font-size: 11px;
+		color: #fff;
+		span{
+			opacity: .5;
+		}
+	}
+	.footer__logo{
+		display: block;
+		margin-top: 7px;
+		@include sized-sprite($icons, stylus);
+		@extend %hide-text;
+	}
+	.footer__nav{
+		
+		position: absolute;
+		top: 27px;
+		left: 255px;
+		font-size: 11px;
+		a{
+			color: #fff;
+			opacity: .5;
+			margin-right: 10px;
+			text-decoration: none;
+			@include transition(all,.2s, linear);
+			&:hover{
+				opacity: 1;
+			}
+		}
+	}
+	.footer__fau{
+		position: absolute;
+		right: 0;
+		top: 8px;
+		@extend %hide-text;
+		@include sized-sprite($icons, fau);
+	}
+}
+// prefoot
+.prefoot{
+	height: 300px;
+	background: url(../img/asf.jpg) repeat-x 50% 0;
+	.prefoot__inner{
+		width: 1000px;
+		margin: auto;
+		@extend %clr;
+		padding-top: 122px;
+	}
+	.prefoot__col{
+		float: left;
+		margin-right: 77px;
+		color: #fff;
+		font-size: 14px;
+		h3{
+			font-weight: bold;
+			font-size: 21px;
+			margin-bottom: 14px;
+		}
+		ul{
+			list-style: none;
+			a{
+				text-decoration: none;
+				color: #fff;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

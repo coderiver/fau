@@ -1,0 +1,58 @@
+.pop .pop__header span { font: 0/0 a; text-shadow: none; color: transparent; }
+
+.items, .bottomitems { *zoom: 1; }
+.items:before, .bottomitems:before, .items:after, .bottomitems:after { content: " "; display: table; }
+.items:after, .bottomitems:after { clear: both; }
+
+.site { background: url(../img/bg.jpg) no-repeat 50% 0; }
+.site .site__inner { width: 1060px; margin: auto; background: #fff; min-height: 100px; position: relative; top: 50px; padding-top: 15px; }
+.site .site__inner:before { content: ''; background: url('../img/icons-se8a07a0b43.png') 0 -97px no-repeat; width: 1060px; height: 45px; position: absolute; bottom: -45px; left: 0; }
+
+.items { position: relative; }
+.items .items__left { float: left; width: 383px; text-align: center; }
+.items .items__right { float: left; width: 664px; }
+.items .items__right .items__item { position: relative; }
+.items .items__right .items__item span { position: absolute; left: 22px; bottom: 27px; font-weight: bold; font-size: 13px; text-decoration: none; color: #000; height: 49px; line-height: 49px; background: #fff; display: inline-block; text-transform: uppercase; padding: 0 	27px; }
+.items .items__item { float: left; }
+.items .items__item img { float: left; }
+.items .header { position: absolute; height: 90px; width: 750px; left: 45px; top: 34px; padding-left: 210px; background: #29abdf; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5); }
+.items .header .header__logo { background: url('../img/icons-se8a07a0b43.png') 0 -152px no-repeat; width: 175px; height: 90px; position: absolute; left: 0; top: 0; }
+.items .header .header__content { padding: 13px 35px 0 0; color: #fff; font-size: 11px; line-height: 1.4em; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
+.items .header .header__content h3 { font-size: 13px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px; opacity: .9; }
+.items .header .header__content p { opacity: .9; line-height: 1.1; }
+
+.bottomitems { margin-bottom: 25px; border-top: 1px solid #c5d9e1; padding-left: 14px; padding-top: 17px; }
+.bottomitems .bottomitems__item { float: left; margin-right: 18px; }
+.bottomitems .bottomitems__item:last-child { margin-right: 0; margin-left: 2px; }
+.bottomitems .fotogal { height: 232px; margin-bottom: 17px; position: relative; display: block; cursor: pointer; }
+.bottomitems .fotogal img { display: block; }
+.bottomitems .fotogal .fotogal__icon { position: absolute; height: 38px; bottom: 17px; left: 19px; width: 40px; background: #26befb; -moz-transition: all 0.1s linear; -o-transition: all 0.1s linear; -webkit-transition: all 0.1s linear; -ms-transition: all 0.1s linear; transition: all 0.1s linear; }
+.bottomitems .fotogal .fotogal__icon i { background: url('../img/icons-se8a07a0b43.png') 0 -311px no-repeat; width: 40px; height: 38px; position: absolute; left: 0; display: inline-block; }
+.bottomitems .fotogal .fotogal__title { position: absolute; line-height: .9; font-size: 23px; position: absolute; left: 68px; bottom: 17px; text-transform: uppercase; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7); color: #fff; font-weight: bold; }
+.bottomitems .fotogal:hover .fotogal__icon { width: 200px; }
+.bottomitems .dostavka, .bottomitems .oplata { margin-bottom: 17px; position: relative; overflow: hidden; text-decoration: none; width: 232px; display: block; }
+.bottomitems .dostavka span, .bottomitems .oplata span { position: absolute; display: block; width: 188px; height: 48px; line-height: 48px; font-size: 24px; font-weight: bold; bottom: 16px; left: 20px; color: #26befb; -moz-transition: all 0.1s linear; -o-transition: all 0.1s linear; -webkit-transition: all 0.1s linear; -ms-transition: all 0.1s linear; transition: all 0.1s linear; text-transform: uppercase; text-align: center; }
+.bottomitems .dostavka:hover span, .bottomitems .oplata:hover span { background: #000; color: #fff; }
+.bottomitems .oplata { margin-bottom: 0; }
+
+.pop { position: relative; }
+.pop .pop__header { text-align: center; margin-bottom: 16px; font-size: 1px; }
+.pop .pop__header span { background: url('../img/icons-se8a07a0b43.png') 0 0 no-repeat; width: 797px; height: 44px; display: inline-block; }
+
+.slider { height: 300px; width: 917px; margin: auto; position: relative; overflow: hidden; }
+.slider .slider__items { position: absolute; width: 20000em; left: 0; }
+.slider .slider__item { float: left; width: 142px; margin-right: 50px; }
+.slider .slider__pic { border: 7px solid #000; margin-bottom: 15px; display: block; -moz-transition: all 0.1s linear; -o-transition: all 0.1s linear; -webkit-transition: all 0.1s linear; -ms-transition: all 0.1s linear; transition: all 0.1s linear; }
+.slider .slider__pic img { display: block; }
+.slider .slider__pic:hover { border-color: #26befb; }
+.slider .slider__link { display: block; border-left: 4px solid #26befb; color: #fff; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); text-decoration: none; padding: 2px 0; overflow: hidden; margin-bottom: 15px; -moz-transition: all 0.1s linear; -o-transition: all 0.1s linear; -webkit-transition: all 0.1s linear; -ms-transition: all 0.1s linear; transition: all 0.1s linear; }
+.slider .slider__link span { padding: 4px 4px 4px 0; background: #26befb; -moz-transition: all 0.1s linear; -o-transition: all 0.1s linear; -webkit-transition: all 0.1s linear; -ms-transition: all 0.1s linear; transition: all 0.1s linear; }
+.slider .slider__link:hover { border-color: #000; color: #26befb; }
+.slider .slider__link:hover span { background: #000; }
+.slider .slider__price { font-size: 38px; line-height: 1; margin-bottom: 10px; font-weight: bold; }
+.slider .slider__price span { font-size: 18px; }
+.slider .slider__buy { height: 36px; line-height: 36px; background: #26befb; color: #fff; text-align: center; display: block; text-decoration: none; font-weight: bold; font-size: 15px; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
+
+.slider__prev, .slider__next { position: absolute; left: 0; top: 128px; cursor: pointer; background: url('../img/icons-se8a07a0b43.png') 0 -657px no-repeat; width: 41px; height: 42px; }
+
+.slider__next { left: auto; right: 0; background: url('../img/icons-se8a07a0b43.png') 0 -605px no-repeat; width: 41px; height: 42px; }
