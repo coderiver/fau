@@ -15,7 +15,7 @@
 .items .items__right .items__item span { position: absolute; left: 22px; bottom: 27px; font-weight: bold; font-size: 13px; text-decoration: none; color: #000; height: 49px; line-height: 49px; background: #fff; display: inline-block; text-transform: uppercase; padding: 0 	27px; }
 .items .items__item { float: left; }
 .items .items__item img { float: left; }
-.items .header { position: absolute; height: 90px; width: 750px; left: 45px; top: 34px; padding-left: 210px; background: #29abdf; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5); }
+.items .header { position: absolute; z-index: 20; height: 90px; width: 750px; left: 45px; top: 34px; padding-left: 210px; background: #29abdf; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5); }
 .items .header .header__logo { background: url('../img/icons-se8a07a0b43.png') 0 -152px no-repeat; width: 175px; height: 90px; position: absolute; left: 0; top: 0; }
 .items .header .header__content { padding: 13px 35px 0 0; color: #fff; font-size: 11px; line-height: 1.4em; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
 .items .header .header__content h3 { font-size: 13px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px; opacity: .9; }
