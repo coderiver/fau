@@ -78,7 +78,7 @@
 				position: absolute;
 				right: 20px;
 				top: 20px;
-				@include transition(all,.2s,linear,.2s);
+				@include transition(all,.2s,linear,0);
 				&.shtani{@include sized-sprite($costumes, 'Mens Pant');}
 				&.acces{@include sized-sprite($costumes, 'Ladies Skirt');}
 				&.jilet{@include sized-sprite($costumes, 'Mens Kurta');}
@@ -104,7 +104,6 @@
 			}
 		}
 		&:hover{
-			
 			.items__info{
 				background: #25a4db;
 				color: #fff;
@@ -114,7 +113,7 @@
 				width: 50%;
 				i{
 					opacity: 1;
-					@include transition(all,.2s,linear,0s);
+					@include transition(all,.2s,linear,0.2s);
 				}
 				ul{
 					opacity: 1;
